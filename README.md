@@ -2,9 +2,8 @@
  This is a note taking app made with flutter.<br>
 ## Concepts used:
 <ul>
-<li>Sqlite database to store custom Note object.</li>
-<li>Search Functionality</li>
-<li>Staggered GridView</li>
+<li>Firebase database to store custom Note object.</li>
+<li>Tiles View</li>
 </ul>
 
 Video Demo: https://www.youtube.com/watch?v=7tC0wIxi-K0 <br><br>
