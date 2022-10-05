@@ -8,9 +8,7 @@
 
 Video Demo: https://www.youtube.com/watch?v=7tC0wIxi-K0 <br><br>
 Screenshots:<br>
-<table style={border:"none"}><tr>
-<td>![image](https://user-images.githubusercontent.com/73634195/194008978-71681b8a-7ab7-4703-8ec1-58cdab6f76b3.png)</td>
-</tr>
+![image](https://user-images.githubusercontent.com/73634195/194009125-2cd08aa1-ab0e-4d83-8454-d1aa0990d3e6.png)
 
 
 </table>
