@@ -62,7 +62,7 @@ class NoteListState extends State<NoteList> {
         body:FutureBuilder(
           future: ref.get(),
             builder: (context, snapshot){
-              if (snapshot.data.docs.length==0){
+              if (snapshot.data == null){
                 return Container(
                   padding: EdgeInsets.only(left: 10.0, right: 10.0),
                   child: Center(

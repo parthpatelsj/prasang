@@ -275,6 +275,8 @@ class NoteDetailState extends State<NoteDetail> {
       'priority': note.priority,
     };
 
+    print('Bro trying to add data...');
+    print(data);
     ref.add(data);
   }
 
