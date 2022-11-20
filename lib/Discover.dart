@@ -21,8 +21,33 @@ class Discover extends StatelessWidget {
             return ListView(
               children: snapshot.data.docs.map((doc) {
                 return Card(
-                  child: ListTile(
-                    title: Text(((doc.data() as dynamic)['body']) ?? ''),
+                  elevation: 0,
+                  shape: RoundedRectangleBorder(
+                    side: BorderSide(
+                        color: Theme.of(context).colorScheme.outline,
+                    ),
+                    borderRadius: const BorderRadius.all(Radius.circular(12)),
+                  ),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                        ListTile(
+                            leading: Icon(Icons.book),
+                            title: Text('Prasang'),
+                            subtitle: Text(((doc.data() as dynamic)['body']) ?? ''),
+                        ),
+                        Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: <Widget>[
+                                TextButton(
+                                child: const Icon(Icons.favorite_border),
+                                onPressed: () {/* ... */},
+                                ),
+                                const SizedBox(width: 8),
+                            ],
+                        ),
+                    ]
+                    
                   ),
                 );
               }).toList(),
