@@ -1,5 +1,5 @@
 name: notes_app
-description: A new Flutter project.
+description: A community memoir.
 
 version: 1.0.0+1
 
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^1.0.3
+  firebase_core: ^1.3.0
   firebase_auth: ^1.2.0
   cloud_firestore: ^2.5.0
   sqflite: 2.0.0+3
@@ -19,6 +19,7 @@ dependencies:
   google_sign_in: ^4.5.1
   flutter_svg: ^0.22.0
   flutter_secure_storage: ^4.2.0
+  rxdart: ^0.27.7
 
 dev_dependencies:
   flutter_test:
